@@ -187,7 +187,7 @@ body {
 }
 
 .features-container {
-  padding: 144px 64px;
+  padding: 124px 64px 64px 64px;
 }
 
 .title-container {
@@ -241,7 +241,6 @@ body {
   margin-top: 24px;
   display: flex;
   flex-direction: row;
-
   gap: 12px;
 }
 
@@ -266,6 +265,11 @@ body {
   background: #242424;
   gap: 8px;
 }
+
+.faq-container {
+  margin-bottom: 24px;
+}
+
 
 .footer-container {
   display: flex;
@@ -339,11 +343,11 @@ body {
 
 @media only screen and (max-width: 800px) {
   .header {
-    padding: 32px 20px;
+    padding: 32px 16px;
   }
 
   .hero-content {
-    padding: 24px 20px;
+    padding: 24px 16px;
   }
 
   .headline {
@@ -366,7 +370,7 @@ body {
   }
 
   .features-container {
-    padding: 80px 20px;
+    padding: 80px 16px;
   }
 
   .title-container {
@@ -383,7 +387,7 @@ body {
   .footer-header {
     width: 100%;
     display: flex;
-    padding: 24px 20px;
+    padding: 24px 16px;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
@@ -393,7 +397,7 @@ body {
   .footer-bottom {
     display: flex;
     flex-direction: column;
-    padding: 16px 20px;
+    padding: 16px 16px;
     gap: 20px;
     
   } 

@@ -53,7 +53,7 @@
 @media only screen and (max-width: 1200px) {
 
     .faq-container {
-        padding: 20px 16px;
+        padding: 12px 8px;
     }
 
     .faq-content {
@@ -63,6 +63,7 @@
     }
 
     .faq-list {
+        margin-top: 12px;
         width: 100%;
     }
   

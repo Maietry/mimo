@@ -56,7 +56,7 @@ function App() {
 
       <div className="features-container">
 
-        <div className="faq-title-container">
+        <div className="title-container">
           <span className="mono-sm">Features</span>
           <span className="sectional-title">Understand Faster, Think Deeper</span>
           <span className="body-md-rg">
@@ -133,7 +133,6 @@ function App() {
       </div>
 
       <div className="faq-container">
-        
         <FAQ />
       </div>
 
