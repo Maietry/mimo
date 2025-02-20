@@ -200,7 +200,7 @@ body {
 .mono-sm {
   color: #737373;
 
-  font-family: Geist Mono;
+  font-family: monospace;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

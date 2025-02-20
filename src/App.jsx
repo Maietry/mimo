@@ -11,6 +11,7 @@ import xIcon from "./assets/icons/xicon.svg";
 import github from "./assets/icons/github.svg";
 import youtube from "./assets/icons/youtube.svg";
 import './App.css'
+import FAQ from './components/faqs/faq';
 
 function App() {
   return (
@@ -55,7 +56,7 @@ function App() {
 
       <div className="features-container">
 
-        <div className="title-container">
+        <div className="faq-title-container">
           <span className="mono-sm">Features</span>
           <span className="sectional-title">Understand Faster, Think Deeper</span>
           <span className="body-md-rg">
@@ -131,7 +132,10 @@ function App() {
 
       </div>
 
-      <div className="faq-container"></div>
+      <div className="faq-container">
+        
+        <FAQ />
+      </div>
 
       <div className="footer-container">
         <div className="footer-header">
