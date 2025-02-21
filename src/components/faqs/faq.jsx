@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import './FAQ.css';
+import './faq.css';
 
 const faqsData = [
     { id: 1, question: "What is included in the free trial?", answer: "You get full access to our platform for 14 days." },
